@@ -29,8 +29,7 @@
      - **Profit Factor**
      - **Win Rate**
      - **Expectancy (ผลตอบแทนเฉลี่ยต่อเทรด)**
-     - **Execution Efficiency** (รวมถึง slippage และ fill rate)
-
+     
 4. **การบริหารความเสี่ยง:**
    - คำนวณค่าใช้จ่ายในการเทรด เช่น ค่าคอมมิชชั่นและค่าธรรมเนียมตลาด
    - นำผลกระทบจาก Slippage มาพิจารณาใน Backtest
@@ -96,7 +95,6 @@ These inefficiencies create opportunities to enter and exit the market rapidly. 
   - Backtest the strategy on in-sample historical data.
 - **Performance Metrics:**  
   - Evaluate using measures such as Sharpe Ratio, Maximum Drawdown, Profit Factor, Win Rate, and Expectancy.
-  - Additionally, assess execution efficiency by analyzing slippage and fill rates.
 
 ### 4. Risk Management
 - **Transaction Costs:**  
