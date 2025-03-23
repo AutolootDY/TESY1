@@ -23,7 +23,11 @@
    └── requirements.txt               # Required libraries for the project
 
 ```
-
+## วิธีใช้งาน
+รันแอปพลิเคชันด้วยคำสั่ง:
+```sh
+streamlit run ตามด้วยชื่อไฟล์python.py
+```
 ## แนวคิดหลัก
 กลยุทธ์ของผมมุ่งเน้นไปที่การใช้ข้อมูล High-Frequency จาก Limit Order Book (LOB) และข้อมูลการเทรด เพื่อค้นหาโอกาสในตลาดที่มีความไร้ประสิทธิภาพในระดับ microstructure โดยเฉพาะ:
 - **Order Imbalance:** ความไม่สมดุลในปริมาณคำสั่งซื้อและขายในแต่ละระดับ
