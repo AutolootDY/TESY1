@@ -1,4 +1,28 @@
 # การวิเคราะห์ข้อมูล LOB และการพัฒนากลยุทธ์เทรดระยะสั้นสำหรับ S50 Futures
+## โครงสร้างไฟล์
+```
+.
+├── split_data                 # โค้ดหลักของแอป
+├── EDA.py 
+├── mt5_data_XAUUSD_TF1H_FUB_TH.csv  # ข้อมูลราคาทองคำ
+├── daily_sentiment.csv    # ข้อมูล Sentiment รายวัน
+└── requirements.txt       # ไลบรารีที่ต้องติดตั้ง
+```
+## โครงสร้างไฟล์
+```
+.
+├── submission-folder/                    # Main application code folder 
+   └── split_data.ipynb           # Jupyter Notebook for data splitting
+         ├── in_sample.csv                  # In-sample data file
+         ├── out_sample.csv                 # Out-of-sample data file
+   ├── EDA.py                         # Exploratory Data Analysis code
+   ├── Strategy_in_sample.py          # Trading strategy for in-sample data
+   ├── Strategy_out_sample.py         # Trading strategy for out-of-sample data
+   ├── Performance_Metrics_in_sample.py      # Performance metrics for in-sample data
+   ├── Performance_Metrics_out_sample.py     # Performance metrics for out-of-sample data
+   └── requirements.txt               # Required libraries for the project
+
+```
 
 ## แนวคิดหลัก
 กลยุทธ์ของผมมุ่งเน้นไปที่การใช้ข้อมูล High-Frequency จาก Limit Order Book (LOB) และข้อมูลการเทรด เพื่อค้นหาโอกาสในตลาดที่มีความไร้ประสิทธิภาพในระดับ microstructure โดยเฉพาะ:
@@ -47,14 +71,7 @@
 
 การใช้สัญญาณเหล่านี้ช่วยให้สามารถเข้าออกตลาดได้อย่างแม่นยำในช่วงเวลาสั้น ๆ ซึ่งเป็นจุดแข็งของกลยุทธ์นี้
 
-## โครงสร้างไฟล์
-```
-.
-├── app.py                 # โค้ดหลักของแอป
-├── mt5_data_XAUUSD_TF1H_FUB_TH.csv  # ข้อมูลราคาทองคำ
-├── daily_sentiment.csv    # ข้อมูล Sentiment รายวัน
-└── requirements.txt       # ไลบรารีที่ต้องติดตั้ง
-```
+
 
 ## สรุป
 กลยุทธ์ที่พัฒนานี้ผสมผสานการวิเคราะห์ข้อมูล LOB ด้วยความละเอียดสูงกับการออกแบบกฎการเทรดที่ชัดเจน พร้อมระบบบริหารความเสี่ยงที่เข้มงวด ทำให้สามารถจับจังหวะการเทรดในสภาวะตลาดที่มีความไร้ประสิทธิภาพในระดับ microstructure ได้อย่างมีประสิทธิภาพและสร้างผลตอบแทนที่น่าสนใจในระยะสั้น
