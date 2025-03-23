@@ -29,7 +29,7 @@
 ```sh
 streamlit run ตามด้วยชื่อไฟล์python.py
 ```
-🔗 [ดาวโหลดช้อมูลและเอกสารได้ที่นี้](https://outlinerbcc-erytbxre62w34kff2pztbb.streamlit.app/) 🚀📊
+🔗 [ดาวโหลดช้อมูลและเอกสารได้ที่นี้]([https://outlinerbcc-erytbxre62w34kff2pztbb.streamlit.app/](https://drive.google.com/drive/folders/18KHkhb-DDgQZchjFG5fE3gjy4fMT2RCc?usp=sharing)) 🚀📊
 
 ## แนวคิดหลัก
 กลยุทธ์ของผมมุ่งเน้นไปที่การใช้ข้อมูล High-Frequency จาก Limit Order Book (LOB) และข้อมูลการเทรด เพื่อค้นหาโอกาสในตลาดที่มีความไร้ประสิทธิภาพในระดับ microstructure โดยเฉพาะ:
@@ -159,4 +159,5 @@ By identifying and reacting to these signals, the strategy is designed to take a
 ---
 
 *This document summarizes the conceptual framework and methodology behind the trading strategy developed using LOB data. The approach combines detailed exploratory analysis, a signal-based trading system, rigorous backtesting, and comprehensive risk management to exploit short-term market inefficiencies effectively.*
+
 
