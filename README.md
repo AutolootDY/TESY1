@@ -21,6 +21,7 @@
    ├── Performance_Metrics_in_sample.py      # Performance metrics for in-sample data
    ├── Performance_Metrics_out_sample.py     # Performance metrics for out-of-sample data
    └── requirements.txt               # Required libraries for the project
+   └── Summary Report of Analysis and Trading Strategy  #summarizing insights)
 
 ```
 ## วิธีใช้งาน
